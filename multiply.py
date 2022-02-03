@@ -9,5 +9,3 @@ def multiply(integer1, integer2):
         return 0
     else:
         return integer2+multiply(integer1-1,integer2)
-
-print(multiply(3,0))
